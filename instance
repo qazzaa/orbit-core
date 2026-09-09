@@ -1,0 +1,3 @@
+[instance]
+test=java -Xmx5000m -jar //winspo.b.bu/Share/CSys/Kernel/Kernel.jar -vm=bfslave5.b.bu -port=7005 -db=jdbc:oracle:thin:tkosystem/tkosystem@192.168.140.70:1521:confdb
+

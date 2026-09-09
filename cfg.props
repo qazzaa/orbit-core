@@ -1,0 +1,16 @@
+[default]
+MaxMsg=10
+MaxRuns=1
+healthIntervalMin=20
+logPath=c:\work2\logs
+manager.DELAY=10
+manager.Xmx=512
+maxExeptions=5000
+monitor.MaxLookUpMin=30
+monitor.DELAY=10000
+monitor.failSafeMode=false
+
+[datasources]
+main=jdbc:oracle:thin:cascade/cascade@192.168.140.70:1521:test
+standby=jdbc:oracle:thin:CLOUD_CASCADE/CLOUD_CASCADE@192.168.140.228:1521:hsby
+

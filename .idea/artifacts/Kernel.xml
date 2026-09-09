@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Kernel">
+    <output-path>//winspo.b.bu/Share/CSys/Kernel</output-path>
+    <root id="archive" name="Kernel.jar">
+      <element id="module-output" name="Kernel" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/com/orbit/core/kernel/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
